@@ -16,5 +16,5 @@
 
 
 
-[GitHub](https://github.com/pufeili)                  [Get Started](/README.md)
+[GitHub](https://github.com/pufeili)                  [Get Started](https://pufeili.github.io/notes/#/README)
 

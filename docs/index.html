@@ -2,11 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Notes</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  
+  <!-- 网站描述+关键字+作者 -->
+  <meta name="description" content="个人wiki站，收集、整理、提炼所学的知识">
+  <meta name="keywords" content="wiki,docsify,音乐爱好者">
+  <meta name="author" content="pufeili">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  
+  <style>
+    .katex-display > .katex {
+      max-width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+  </style>
+  
 </head>
 <body>
   <div id="app">加载...</div>
@@ -14,14 +28,30 @@
     window.$docsify = {
 	  // 文档侧边标题
       name: 'Home',
+	  // 文档标题后跳转的链接地址
+	  nameLink: 'https://pufeili.github.io/notes/#/README',
 	  // 页面右上角渲染一个 GitHub Corner 挂件
       repo: 'https://github.com/pufeili/',
 	  
 	  coverpage:true,
 	  loadSidebar: false,
+	  auto2top: true,
+	  
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  <!-- 可以复制代码选项 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  
+  <!-- 代码高亮插件 -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  
+  <!-- Docsify script Here -->
+  <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+  
 </body>
 </html>
