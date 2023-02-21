@@ -34,9 +34,9 @@
 
 ## 提效工具笔记
 
+ [GitBash使用代理拉取仓库](developer\GitBash使用代理拉取仓库.md) 
 
-
-
+ [frp反向代理](developer\frp反向代理.md) 
 
 
 
