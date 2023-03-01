@@ -40,6 +40,11 @@
 	  coverpage:true,
 	  loadSidebar: false,
 	  auto2top: true,
+	  
+	  timeUpdater: {
+		text: "<div align='right' width='200px' style='color:gray;font-size:18px'> last update time:&emsp;{docsify-updated} </div>",
+		formatUpdated: "{YYYY}/{MM}/{DD}",
+		},
 	  	  	  
     }
   </script>
@@ -55,6 +60,9 @@
   
   <!-- 白天/黑夜模式切换 -->
   <!--script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script-->
+  
+  <!-- 显示更新时间 -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
   
   <!-- Docsify script Here -->
   <script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
