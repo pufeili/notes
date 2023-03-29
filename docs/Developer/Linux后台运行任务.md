@@ -35,6 +35,10 @@ nohup python sleep.py >logs.txt &
 # 假如 py 文件的参数很多，可以新建一个sh文件，直接执行shell文件
 ```
 
+> 注：假如`sleep.py`文件需要从外界传入参数，这个命令不可用，需要新建一个`shell`文件，执行`shell`文件
+>
+> 如何编写`shell`脚本见 [链接](https://github.com/pufeili/Knowlege/tree/master/shell_tutorial)
+
 其中 `sleep.py` 文件内容是无限打印输出
 
 ```python
@@ -79,6 +83,10 @@ tmux attach -t <session_name>
 
 ## 3 查看后台进程并精准`kill`进程
 
+> 注：使用`kill`杀死进程后，重定向的输出不会保留，无论是直接执行的 `python sleep.py` 还是 `run.sh`
+>
+> 使用 `fg` 将任务调度到前台，`ctrl+c`则会保留日志。
+
 ### 3.1 `ps` 命令：`全局`查看进程信息
 
 ==可以在伪终端，也可以在真终端==进行查询进程。简单使用方法如下：
@@ -86,7 +94,7 @@ tmux attach -t <session_name>
 ```bash
 # 使用ps -ef 或者 ps -aux 结合grep过滤
 ps -ef | grep sleep
-# 杀死进程  -9 表示强制杀死进程
+# 杀死进程  -9 表示强制杀死进程  这种杀死进程 重定向的输出logs文件也会消失
 kill -9 PID
 ```
 
@@ -108,7 +116,11 @@ kill -9 PID
 # 通过jobs命令查看任务号
 jobs -l
 # 通过任务号 %N 杀死进程
+# 这种杀死进程 重定向的输出logs文件也会消失
 kill -9 %2
+
+# 通过fg命令调到前台，再使用ctrl+c命令会保留logs文件
+fg 任务号
 ```
 
 - `fg 任务号`命令：将后台中的任务调至前台并继续运行。
