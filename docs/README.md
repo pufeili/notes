@@ -8,7 +8,7 @@
 
 ## 系统相关笔记
 
- [SSH隧道端口转发实现JupyterNotebook](Linux\SSH隧道端口转发实现JupyterNotebook.md) 
+ [SSH隧道端口转发实现JupyterNotebook](Linux/SSH隧道端口转发实现JupyterNotebook.md) 
 
  [Ubuntu搭建samba服务器磁盘映射](Linux\Ubuntu搭建samba服务器磁盘映射.md) 
 
