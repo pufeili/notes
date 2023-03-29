@@ -34,13 +34,13 @@
 
 
 
-## 提效工具笔记
+## 提效技巧笔记
 
  [GitBash使用代理拉取仓库](Developer/GitBash使用代理拉取仓库.md) 
 
  [frp反向代理](Developer/frp反向代理.md) 
 
-
+ [Linux后台运行任务](Developer/Linux后台运行任务.md) 
 
 ## python/matlab/pytorch笔记
 
