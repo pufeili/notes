@@ -8,21 +8,23 @@
 
 ## 系统相关笔记
 
- [SSH隧道端口转发实现JupyterNotebook](linux\SSH隧道端口转发实现JupyterNotebook.md) 
+ [SSH隧道端口转发实现JupyterNotebook](Linux\SSH隧道端口转发实现JupyterNotebook.md) 
 
- [Ubuntu搭建samba服务器磁盘映射](linux\Ubuntu搭建samba服务器磁盘映射.md) 
+ [Ubuntu搭建samba服务器磁盘映射](Linux\Ubuntu搭建samba服务器磁盘映射.md) 
 
- [Ubuntu设置磁盘阵列](linux\Ubuntu设置磁盘阵列.md) 
+ [Ubuntu设置磁盘阵列](Linux\Ubuntu设置磁盘阵列.md) 
 
- [Ubuntu下文件权限管理](linux\Ubuntu下文件权限管理.md) 
+ [Ubuntu下文件权限管理](Linux\Ubuntu下文件权限管理.md) 
 
- [Ubuntu用户管理](linux\Ubuntu用户管理.md) 
+ [Ubuntu用户管理](Linux\Ubuntu用户管理.md) 
 
- [vim的使用](linux\vim的使用.md) 
+ [vim的使用](Linux\vim的使用.md) 
 
- [服务器通过代理上网](linux\服务器通过代理上网.md) 
+ [服务器通过代理上网](Linux\服务器通过代理上网.md) 
 
- [软链接和硬链接](linux\软链接和硬链接.md) 
+ [软链接和硬链接](Linux\软链接和硬链接.md) 
+
+ [Tutorial-linux](Linux\Tutorial-linux.md) 
 
 ## 科研学习笔记
 
