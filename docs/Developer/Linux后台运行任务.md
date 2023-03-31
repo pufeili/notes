@@ -37,7 +37,7 @@ nohup python sleep.py >logs.txt &
 
 > 注：假如`sleep.py`文件需要从外界传入参数，这个命令不可用，需要新建一个`shell`文件，执行`shell`文件
 >
-> 如何编写`shell`脚本见 [链接](https://github.com/pufeili/Knowlege/tree/master/shell_tutorial)
+> 如何编写`shell`脚本见 [链接](https://github.com/pufeili/Knowlege/tree/master/shell_tutorial) 
 
 其中 `sleep.py` 文件内容是无限打印输出
 
@@ -61,7 +61,31 @@ while(1):
 >
 > `&` 是指将程序转入后台运行
 
-### 2.2 退出伪终端
+### 2.2 实时查看输出日志 `tail` 命令
+
+> 在Python中，输出通常会被缓冲，这意味着输出内容不会立即写入文件中，而是等到缓冲区满了或者程序结束时才会写入。因此，在使用`tail -f`命令查看实时日志时，可能会出现无法显示最新内容的情况。
+>
+> 为了解决这个问题，可以尝试将Python脚本的标准输出设置为无缓冲模式，具体做法是在执行Python脚本之前，设置环境变量`PYTHONUNBUFFERED`为1，例如：
+>
+> ```bash
+> nohup env PYTHONUNBUFFERED=1 python run.py > log &
+> ```
+>
+> 或者在shell文件开头加上设置`PYTHONUNBUFFERED`环境变量的语句
+>
+> ```shell
+> #!/bin/bash
+> export PYTHONUNBUFFERED=1
+> python your_script.py
+> ```
+>
+> 禁用Python的缓冲机制，这样使用`tail -f log`命令就可以实时查看log文件的最新内容了。
+
+```bash
+tail -f log
+```
+
+### 2.3 退出伪终端
 
 此时程序已经在后台运行了，并且会将输出重定向在日志文件中。现在可以暂时返回真终端，即使关闭真终端 `terminal` 或者断开服务器的连接，代码也可以在服务器运行。
 
@@ -75,7 +99,7 @@ tmux detach
 tmux ls
 ```
 
-### 2.3 重连伪终端
+### 2.4 重连伪终端
 
 ```bash
 tmux attach -t <session_name>
