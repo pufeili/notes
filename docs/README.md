@@ -1,8 +1,8 @@
 ## 知识学习笔记
 
+ [矩阵求导总结](MLFundamentals\矩阵求导总结.md) 
 
-
-
+ [最小二乘法及代码实现](MLFundamentals\最小二乘法及代码实现.md) 
 
 
 
