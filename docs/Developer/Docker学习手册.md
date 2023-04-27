@@ -727,7 +727,7 @@ dockerfile  docker-test-volume  test.txt
 
 ## 小结
 
-![docker_commands](Docker学习手册.assets/docker_commands.jpg)
+![docker_commands](https://cdn.staticaly.com/gh/pufeili/picx-images-hosting@master/20230427/docker_commands.1wwmbt88oli8.webp)
 
 ```shell
 attach		Attach to a running container			#当前shell 下attach连接指定运行镜像

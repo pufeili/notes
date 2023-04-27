@@ -42,6 +42,8 @@
 
  [Linux后台运行任务](Developer/Linux后台运行任务.md) 
 
+ [Docker学习手册_1](Developer\Docker学习手册.md)   [Docker学习手册_2](Developer\docker_tutorial_deeplearning.md) 
+
 ## python/matlab/pytorch笔记
 
 
