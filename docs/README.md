@@ -4,7 +4,9 @@
 
  [最小二乘法及代码实现](MLFundamentals\最小二乘法及代码实现.md) 
 
+`MIT 18.06` 线性代数笔记
 
+-  [第 02 讲 矩阵消元 Elimination with matrices](MLFundamentals\LinearAlgebra\第 02 讲 矩阵消元 Elimination with matrices.md) 
 
 ## 系统相关笔记
 
