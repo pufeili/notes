@@ -59,3 +59,11 @@
  [论文插图相关](PaperWriting/论文插图相关.md) 
 
  [论文排版相关](PaperWriting/论文排版相关.md) 
+
+
+
+## 一些学习资源
+
+https://allmachinelearning.github.io/MachineLearning/
+
+https://zhuanlan.zhihu.com/p/26810425
