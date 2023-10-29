@@ -91,6 +91,7 @@ tail -f log
 
 ```bash
 tmux detach
+# 或者 按Ctrl+b之后再按d
 ```
 
 此时已经返回到真终端，如何忘记伪终端名字，可以查看伪终端
@@ -103,6 +104,7 @@ tmux ls
 
 ```bash
 tmux attach -t <session_name>
+# 简写：tmux a -t <session_name>
 ```
 
 ## 3 查看后台进程并精准`kill`进程
@@ -192,7 +194,7 @@ awk -i "2a test" 1.txt
 
 http://t.csdn.cn/BptHB
 
-
+https://blog.csdn.net/qq_36944952/article/details/116352695
 
 
 
