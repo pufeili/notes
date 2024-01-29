@@ -29,7 +29,9 @@
  [Tutorial-linux](Linux/Tutorial-linux.md) 
 
  [实验室服务器分配用户和权限](Linux/服务器分配用户和权限.md) 
-
+ 
+ [Ubuntu开机自启动脚本]([Linux/服务器分配用户和权限.md](https://blog.csdn.net/Dontla/article/details/132038293)) 
+ 
 ## 科研学习笔记
 
  [数据预处理之标准化正则化归一化](ResearchNotes/数据预处理之标准化正则化归一化.md) 
