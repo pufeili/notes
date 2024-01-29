@@ -30,7 +30,7 @@
 
  [实验室服务器分配用户和权限](Linux/服务器分配用户和权限.md) 
  
- [Ubuntu开机自启动脚本](https://blog.csdn.net/Dontla/article/details/132038293) [link2](https://blog.csdn.net/guotianqing/article/details/108813689) 
+ [Ubuntu开机自启动脚本](https://blog.csdn.net/Dontla/article/details/132038293) [link2](https://blog.csdn.net/guotianqing/article/details/108813689)  [systemd命令详解](https://blog.csdn.net/WU2629409421perfect/article/details/108558763)
  
 ## 科研学习笔记
 
